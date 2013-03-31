@@ -26,12 +26,10 @@ schedule = watch_directory_6,5,5,"load_start=/home/ally/tor/tv/*.torrent,d.set_c
 schedule = watch_directory_7,5,5,"load_start=/home/ally/tor/documentaries/*.torrent,d.set_custom1=/vault/documentaries"
 schedule = watch_directory_8,5,5,"load_start=/home/ally/tor/books/*.torrent,d.set_custom1=/vault/books"
 
-
 system.method.insert=checkdirs1,simple,"not=\"$equal={d.get_custom1=,d.get_base_path=}\""
 system.method.insert=movecheck1,simple,"and={checkdirs1=,d.get_complete=,d.get_custom1=}"
 system.method.insert=movedir1,simple,"d.set_directory=$d.get_custom1=;execute=mv,-u,$d.get_base_path=,$d.get_custom1=;d.set_custom1=;d.stop=;d.start="
 system.method.set_key=event.download.hash_done,move_hashed1,"branch={$movecheck1=,movedir1=}"
-
 #
 
 port_range = 6890-6999
