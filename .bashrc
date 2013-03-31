@@ -20,7 +20,6 @@ alias isomount='sudo mount -o loop,exec'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-alias rdesk='rdesktop -u akatch-ou -d ad.wisc.edu -g 1440x900'
 
 #
 # Environment variables
