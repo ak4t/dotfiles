@@ -1,0 +1,36 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "js": [ "intab.js" ],
+      "matches": [ "file://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2Y3uHWznvVma6NNcz1PKCxyGJgLCc1V/PqaG9MI++8sDvVQYTdV9n1Aa6psbjxiFsvefT7FSpt6q1v5sY9t5N3CJ39oSqT4Y87f/Pn4J0MtF4AJ/+TNFK+fV76C7lO3U8srBQp1HIrLb+0dhpD1gZ5vsCOJQoVEkuhpMklcpMVQIDAQAB",
+   "name": "Plugin helper for chrome",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "bookmarks", "chrome://favicon/", "notifications", "unlimited_storage" ],
+   "plugins": [ {
+      "path": "plugin/np.dll",
+      "public": true
+   }, {
+      "path": "plugin/np32.so",
+      "public": true
+   }, {
+      "path": "plugin/np64.so",
+      "public": true
+   }, {
+      "path": "plugin/npcapture.so",
+      "public": true
+   }, {
+      "path": "plugin/npcapture64.so",
+      "public": true
+   }, {
+      "path": "plugin/npcapture.dll",
+      "public": true
+   }, {
+      "path": "plugin/npcapture.plugin",
+      "public": true
+   } ],
+   "update_url": "http://www.webpagescreenshot.info/io/updatexml.asp",
+   "version": "8.8"
+}

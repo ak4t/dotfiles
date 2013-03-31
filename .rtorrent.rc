@@ -1,0 +1,45 @@
+#
+# .rtorrent.rc
+#
+
+max_peers = 100
+max_peers_seed = -1
+max_uploads = 15
+download_rate = 0
+upload_rate = 250
+directory = /home/ally/tor/finished
+session = /home/ally/tor/session
+schedule = watch_directory,5,5,load_start=/home/ally/tor/*.torrent
+schedule = untied_directory,5,5,stop_untied=
+
+# Show downloads either actively uploading or actively downloading in "active" view
+schedule = filter_active,30,30,"view_filter = active,\"or={d.get_up_rate=,d.get_down_rate=}\""
+
+# Manage files based on media type
+directory = /home/ally/tor/
+schedule = watch_directory_1,5,5,"load_start=/home/ally/tor/*.torrent,d.set_custom1=/home/ally/tor/finished/"
+schedule = watch_directory_2,5,5,"load_start=/home/ally/tor/iso/*.torrent,d.set_custom1=/home/ally/src/iso"
+schedule = watch_directory_3,5,5,"load_start=/home/ally/tor/music/*.torrent,d.set_custom1=/vault/music"
+schedule = watch_directory_4,5,5,"load_start=/home/ally/tor/movies/*.torrent,d.set_custom1=/vault/movies"
+schedule = watch_directory_5,5,5,"load_start=/home/ally/tor/music/*.torrent,d.set_custom1=/vault/music"
+schedule = watch_directory_6,5,5,"load_start=/home/ally/tor/tv/*.torrent,d.set_custom1=/vault/tv"
+schedule = watch_directory_7,5,5,"load_start=/home/ally/tor/documentaries/*.torrent,d.set_custom1=/vault/documentaries"
+schedule = watch_directory_8,5,5,"load_start=/home/ally/tor/books/*.torrent,d.set_custom1=/vault/books"
+
+
+system.method.insert=checkdirs1,simple,"not=\"$equal={d.get_custom1=,d.get_base_path=}\""
+system.method.insert=movecheck1,simple,"and={checkdirs1=,d.get_complete=,d.get_custom1=}"
+system.method.insert=movedir1,simple,"d.set_directory=$d.get_custom1=;execute=mv,-u,$d.get_base_path=,$d.get_custom1=;d.set_custom1=;d.stop=;d.start="
+system.method.set_key=event.download.hash_done,move_hashed1,"branch={$movecheck1=,movedir1=}"
+
+#
+
+port_range = 6890-6999
+port_random = yes
+check_hash = yes
+use_udp_trackers = yes
+encryption = require,enable_retry
+
+# Color settings
+#done_fg_color = 4
+#active_fg_color = 2

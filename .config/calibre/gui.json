@@ -1,0 +1,362 @@
+{
+  "quick_start_guide_added": true, 
+  "book_display_fields": [
+    [
+      "title", 
+      false
+    ], 
+    [
+      "authors", 
+      true
+    ], 
+    [
+      "formats", 
+      true
+    ], 
+    [
+      "series", 
+      true
+    ], 
+    [
+      "identifiers", 
+      false
+    ], 
+    [
+      "tags", 
+      false
+    ], 
+    [
+      "path", 
+      false
+    ], 
+    [
+      "publisher", 
+      false
+    ], 
+    [
+      "rating", 
+      false
+    ], 
+    [
+      "author_sort", 
+      false
+    ], 
+    [
+      "sort", 
+      false
+    ], 
+    [
+      "timestamp", 
+      false
+    ], 
+    [
+      "uuid", 
+      false
+    ], 
+    [
+      "comments", 
+      false
+    ], 
+    [
+      "id", 
+      false
+    ], 
+    [
+      "pubdate", 
+      false
+    ], 
+    [
+      "last_modified", 
+      false
+    ], 
+    [
+      "size", 
+      false
+    ], 
+    [
+      "languages", 
+      false
+    ]
+  ], 
+  "action-layout-menubar": [
+    "Add Books", 
+    "Convert Books", 
+    "Save To Disk", 
+    "Plugin Updater", 
+    "Connect Share", 
+    "Reading List", 
+    "Kindle Collections", 
+    "Preferences"
+  ], 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "plugin config dialog:File type:Kindle and Mobipocket DeDRM": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAApFAAABaAAAC9wAAAJeAAAKRwAAAXsAAAvaAAACWQAAAAAAAA=="
+  }, 
+  "convert_single_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAkPAAAAeQAADRIAAANMAAAJEQAAAIwAAA0QAAADRwAAAAAAAA=="
+  }, 
+  "advanced search dialog current tab": 1, 
+  "card_b_view books view state": {
+    "column_alignment": {
+      "timestamp": "center", 
+      "size": "center"
+    }, 
+    "column_sizes": {
+      "title": 66, 
+      "timestamp": 81, 
+      "inlibrary": 102, 
+      "collections": 113, 
+      "authors": 101, 
+      "size": 65
+    }, 
+    "languages_injected": true, 
+    "column_positions": {
+      "title": 1, 
+      "timestamp": 3, 
+      "inlibrary": 0, 
+      "collections": 5, 
+      "authors": 2, 
+      "size": 4
+    }, 
+    "sort_history": [
+      [
+        "timestamp", 
+        false
+      ]
+    ], 
+    "hidden_columns": [], 
+    "last_modified_injected": true
+  }, 
+  "book_details_splitter_vertical_state": [
+    true, 
+    120
+  ], 
+  "card_a_view books view state": {
+    "column_alignment": {
+      "timestamp": "center", 
+      "size": "center"
+    }, 
+    "column_sizes": {
+      "title": 66, 
+      "timestamp": 81, 
+      "inlibrary": 102, 
+      "collections": 113, 
+      "authors": 101, 
+      "size": 65
+    }, 
+    "languages_injected": true, 
+    "column_positions": {
+      "title": 1, 
+      "timestamp": 3, 
+      "inlibrary": 0, 
+      "collections": 5, 
+      "authors": 2, 
+      "size": 4
+    }, 
+    "sort_history": [
+      [
+        "timestamp", 
+        false
+      ]
+    ], 
+    "hidden_columns": [], 
+    "last_modified_injected": true
+  }, 
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAKAAAAAjAAABfIAAAM8AAACggAAAJ8AAAXwAAADNwAAAAAAAA=="
+  }, 
+  "replace_scene_breaks_history": [
+    "", 
+    "<hr />", 
+    "\u2217 \u2217 \u2217", 
+    "\u2022 \u2022 \u2022", 
+    "\u2666 \u2666 \u2666", 
+    "\u2020 \u2020", 
+    "\u2021 \u2021 \u2021", 
+    "\u221e \u221e \u221e", 
+    "\u00a4 \u00a4 \u00a4"
+  ], 
+  "questions_to_auto_skip": [
+    "auto_convert_before_send"
+  ], 
+  "show_splash_screen": false, 
+  "action-layout-menubar-device": [
+    "Add Books", 
+    "Convert Books", 
+    "Connect Share", 
+    "Plugin Updater", 
+    "Save To Disk", 
+    "Kindle Collections", 
+    "Reading List", 
+    "Send To Device", 
+    "Preferences"
+  ], 
+  "tag_browser_splitter_horizontal_state": [
+    false, 
+    0
+  ], 
+  "toolbar_icon_size": "small", 
+  "kindle_collections plugin:edit collections dialog: geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAj8AAAAZwAADn8AAAN8AAAI/QAAAH8AAA5+AAADeQAAAAAAAA=="
+  }, 
+  "plugin config dialog:File type:K4PC, K4Mac, Kindle Mobi and Topaz DeDRM": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAqOAAABjgAAC5MAAAI4AAAKkAAAAaEAAAuRAAACMwAAAAAAAA=="
+  }, 
+  "action-layout-toolbar": [], 
+  "library_usage_stats": {
+    "/home/ally/kin/ebooks": 48
+  }, 
+  "Plugin Updater plugin:plugin updater dialog": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAgpAAAAtQAADJsAAAK6AAAIKgAAAM0AAAyaAAACtwAAAAAAAA=="
+  }, 
+  "Kindle Collections: Menu Style": "Show menu (default)", 
+  "memory_view books view state": {
+    "column_alignment": {
+      "timestamp": "center", 
+      "size": "center"
+    }, 
+    "column_sizes": {
+      "title": 794, 
+      "timestamp": 0, 
+      "inlibrary": 102, 
+      "collections": 113, 
+      "authors": 101, 
+      "size": 0
+    }, 
+    "languages_injected": true, 
+    "column_positions": {
+      "title": 1, 
+      "timestamp": 3, 
+      "inlibrary": 0, 
+      "collections": 5, 
+      "authors": 2, 
+      "size": 4
+    }, 
+    "sort_history": [
+      [
+        "timestamp", 
+        false
+      ]
+    ], 
+    "hidden_columns": [
+      "timestamp", 
+      "size"
+    ], 
+    "last_modified_injected": true
+  }, 
+  "plugin config dialog:User Interface Action:Reading List": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAGXAAAA6QAAA2gAAAMqAAABmAAAAQEAAANnAAADJwAAAAAAAA=="
+  }, 
+  "convert_bulk_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAkPAAAAeQAADRIAAANMAAAJEQAAAIwAAA0QAAADRwAAAAAAAA=="
+  }, 
+  "jobs view column layout": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuwAAAAEAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAADAAABFgAAAAEAAAAAAAABDgAAAAEAAAAAAAAAyAAAAAIAAAAA"
+  }, 
+  "kindle_collections plugin:edit settings dialog: geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAYdAAAA6QAACOIAAAMpAAAGHgAAAQEAAAjhAAADJgAAAAAAAA=="
+  }, 
+  "cover_browser_splitter_horizontal_state": [
+    false, 
+    550
+  ], 
+  "action-layout-toolbar-device": [
+    "Location Manager"
+  ], 
+  "auto_add_check_for_duplicates": true, 
+  "filename_pattern_history": [
+    "(?P<title>.+) - (?P<author>[^_]+)", 
+    "(?P<title>.+)", 
+    "(?P<author>[^_-]+) -?\\s*(?P<series>[^_0-9-]*)(?P<series_index>[0-9]*)\\s*-\\s*(?P<title>[^_].+) ?"
+  ], 
+  "plugin config dialog:User Interface Action:Kindle Collections": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAiFAAAAYAAADHAAAAMtAAAIhgAAAHgAAAxvAAADKgAAAAAAAA=="
+  }, 
+  "bulk_metadata_window_tab": 0, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "preferences_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAAhyAAAAZAAAC/kAAANLAAAIdAAAAHcAAAv3AAADRgAAAAAAAA=="
+  }, 
+  "library_view books view state": {
+    "column_alignment": {
+      "timestamp": "center", 
+      "pubdate": "center", 
+      "size": "center"
+    }, 
+    "column_sizes": {
+      "rating": 0, 
+      "pubdate": 0, 
+      "publisher": 0, 
+      "series": 164, 
+      "tags": 0, 
+      "authors": 237, 
+      "timestamp": 0, 
+      "title": 350, 
+      "size": 0
+    }, 
+    "sort_history": [
+      [
+        "authors", 
+        0
+      ], 
+      [
+        "series", 
+        0
+      ], 
+      [
+        "timestamp", 
+        1
+      ], 
+      [
+        "timestamp", 
+        1
+      ], 
+      [
+        "timestamp", 
+        1
+      ]
+    ], 
+    "hidden_columns": [
+      "timestamp", 
+      "size", 
+      "rating", 
+      "tags", 
+      "publisher", 
+      "pubdate"
+    ], 
+    "column_positions": {
+      "rating": 5, 
+      "pubdate": 9, 
+      "publisher": 8, 
+      "series": 7, 
+      "title": 1, 
+      "authors": 2, 
+      "ondevice": 0, 
+      "timestamp": 3, 
+      "tags": 6, 
+      "size": 4
+    }
+  }, 
+  "bulk_metadata_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywABAAAAAACeAAAAugAABGMAAANWAAAAoAAAAM0AAARhAAADUQAAAAAAAA=="
+  }
+}

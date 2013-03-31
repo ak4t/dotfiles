@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3.5">
+		<item label="Bomgar">
+			<action name="Execute">
+				<execute>
+					/home/ally/.bomgar-rep/remotehelp.doit.wisc.edu/bomgar-rep
+				</execute>
+			</action>
+		</item>
+		<item label="Calibre">
+			<action name="Execute">
+				<execute>
+					calibre
+				</execute>
+			</action>
+		</item>
+		<item label="Chrome">
+			<action name="Execute">
+				<execute>
+					google-chrome
+				</execute>
+			</action>
+		</item>
+		<item label="Chromium">
+			<action name="Execute">
+				<execute>chromium-browser</execute>
+			</action>
+		</item>
+		<item label="Last.fm">
+			<action name="Execute">
+				<execute>
+					lastfm
+				</execute>
+			</action>
+		</item>
+		<item label="KeePass">
+			<action name="Execute">
+				<execute>
+					keepassx
+				</execute>
+			</action>
+		</item>
+		<item label="SpiderOak">
+			<action name="Execute">
+				<execute>
+					SpiderOak
+				</execute>
+			</action>
+		</item>
+		<item label="Spotify">
+			<action name="Execute">
+				<execute>
+					spotify
+				</execute>
+			</action>
+		</item>
+		<item label="Steam">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>
+					urxvt
+				</execute>
+			</action>
+		</item>
+		<item label="VLC">
+			<action name="Execute">
+				<execute>
+					vlc
+				</execute>
+			</action>
+		</item>
+		<item label="VirtualBox">
+			<action name="Execute">
+				<execute>
+					virtualbox
+				</execute>
+			</action>
+		</item>
+		<item label="VMware">
+			<action name="Execute">
+				<execute>
+					vmware
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu execute="obpipemenu-places" id="places" label="Places"/>
+		<menu id="preferences" label="Preferences">
+			<menu id="obConfig" label="Openbox Config">
+				<item label="Edit menu.xml">
+					<action name="Execute">
+						<execute>
+							urxvt -e vim ~/.config/openbox/menu.xml
+						</execute>
+					</action>
+				</item>
+				<item label="Edit rc.xml">
+					<action name="Execute">
+						<execute>
+							urxvt -e vim ~/.config/openbox/rc.xml
+						</execute>
+					</action>
+				</item>
+				<item label="Edit autostart.sh">
+					<action name="Execute">
+						<execute>
+							urxvt -e vim ~/.config/openbox/autostart.sh
+						</execute>
+					</action>
+				</item>
+				<item label="GUI Menu Editor">
+					<action name="Execute">
+						<execute>
+							obmenu
+						</execute>
+					</action>
+				</item>
+				<item label="GUI Config Tool">
+					<action name="Execute">
+						<execute>
+							obconf
+						</execute>
+					</action>
+				</item>
+				<item label="Reconfigure">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="Restart">
+					<action name="Restart"/>
+				</item>
+			</menu>
+			<item label="User Interface Settings">
+				<action name="Execute">
+					<execute>
+						lxappearance
+					</execute>
+				</action>
+			</item>
+			<item label="Power Management">
+				<action name="Execute">
+					<execute>
+                        xscreensaver
+					</execute>
+				</action>
+			</item>
+			<item label="Choose Wallpaper">
+				<action name="Execute">
+					<execute>
+						nitrogen 
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="system" label="System">
+			<item label="System Update">
+				<action name="Execute">
+					<execute>
+						urxvt -e system-update
+					</execute>
+				</action>
+			</item>
+			<item label="Disk Partitioner">
+				<action name="Execute">
+					<execute>
+						gksudo gparted
+					</execute>
+				</action>
+			</item>
+			<item label="Display Settings">
+				<action name="Execute">
+					<execute>
+						grandr
+					</execute>
+				</action>
+			</item>
+			<item label="System Monitor">
+				<action name="Execute">
+					<execute>
+						urxvt -e htop
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Exit">
+			<action name="Execute">
+				<execute>
+					openbox-logout
+				</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

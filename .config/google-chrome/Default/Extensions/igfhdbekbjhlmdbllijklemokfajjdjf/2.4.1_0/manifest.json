@@ -1,0 +1,14 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [ "http://*.reddit.com/*", "https://*.reddit.com/*" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*.reddit.com/*", "https://*.reddit.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Displays any alt-text from faces in the comments, eliminating the need to mouse over.",
+   "key": "W3tvsyLw+2NNSXJ6EebXh7aN2i8zlsILQutwH94YaRQ=",
+   "name": "Super Reddit Alt-Text Display",
+   "version": "2.4.1"
+}

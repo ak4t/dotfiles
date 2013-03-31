@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "js/chrome_ex_oauthsimple.js", "js/model.js", "js/utils.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/logo.ico"
+   },
+   "content_scripts": [ {
+      "js": [ "js/inject/verifier.js" ],
+      "matches": [ "https://api.imgur.com/oauth/authorize?oauth_token=*" ]
+   }, {
+      "exclude_matches": [ "http://www.imgur.com/", "https://www.imgur.com/" ],
+      "js": [ "js/inject/albumMonitor.js" ],
+      "matches": [ "http://*.imgur.com/", "https://*.imgur.com/" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://dme0ih8comzn4.cloudfront.net https://featherservices.aviary.com https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Take screenshots, add images to your imgur account and upload images from your desktop using drag and drop.",
+   "icons": {
+      "128": "img/logo.png",
+      "16": "img/logo.ico",
+      "48": "img/logo_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDM6D3wZNAfHGpc9/Hk7sPNSCnauK/sQPhAPViDmjT8Sj+Ot7ugDafYSynzhIFPZyckXm+4TkmlcqQukCI8GP+yqcb70oWVus8GplHTimJkoDKLwJkLH55lhBjg5Z8Aa7BngFf0W/C7ZASElFNfQqWQJI3bgK6vHX5cRgJrhZ9AoQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "imgur",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "notifications", "http://*/*", "https://*/*", "clipboardWrite", "clipboardRead" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.3",
+   "web_accessible_resources": [ "img/logo.png" ]
+}
